@@ -1,0 +1,49 @@
+.servers {
+    width: 90vw !important;
+    height: 90vh !important;
+    max-height: unset !important;
+    max-width: unset !important;
+}
+
+.servers .messages,
+.servers .message,
+.servers .chat,
+.servers .chat-cont {
+    width: 100% !important;
+    max-width: 100% !important;
+    z-index: 1;
+}
+
+.servers .message .button {
+    line-height: 1 !important;
+}
+
+.servers .message .border {
+    display: none;
+}
+
+.servers .message {
+    position: relative;
+}
+
+.servers .SERVER:before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #3b4975;
+}
+
+.servers .bot:before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #202639;
+}
